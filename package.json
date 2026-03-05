@@ -1,0 +1,31 @@
+{
+  "name": "github-trending-cli",
+  "version": "1.0.0",
+  "description": "CLI application that shows trending repositories from GitHub",
+  "main": "dist/index.js",
+  "bin": {
+    "trending-repos": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "cli",
+    "repositories"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
