@@ -169,3 +169,7 @@ export GITHUB_TOKEN=your_token_here
 ## License
 
 MIT
+
+## Credits
+
+Created as part of the [Backend Developer Roadmap](https://roadmap.sh/projects/github-trending-cli) learning path.s
